@@ -8,9 +8,9 @@ import (
 
 func NewFooCommand() *cobra.Command {
 	return &cobra.Command{
-		Use: "foo",
+		Use: "bar",
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println("foo")
+			fmt.Println("bar")
 		},
 	}
 }
